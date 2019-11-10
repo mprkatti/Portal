@@ -29,7 +29,7 @@ class ProductServiceFallback implements ProductServiceClient {
 	@Override
 	public List<Product> getAllProductsFromService() {
 
-		list.add(new Product(UUID.randomUUID().toString(), "Maple TV", "Brand New Apple TV", 400.46, "Apple Inc", ""));
+		list.add(new Product(UUID.randomUUID().toString(), "Maple TV", "Brand New Mapple TV", 400.46, "Maple Inc", ""));
 		list.add(new Product(UUID.randomUUID().toString(), "Macromax  Phone", "Latest MicroMax Next Gen", 250.46, "Macromax Digital Company", ""));
 		list.add(new Product(UUID.randomUUID().toString(), "EcoGreen Refrigerator", "Next Gen Fridge ", 100.46, "Eco Green Co",""));
 
